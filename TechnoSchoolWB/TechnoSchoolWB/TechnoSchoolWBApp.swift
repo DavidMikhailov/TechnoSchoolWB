@@ -11,7 +11,7 @@ import SwiftUI
 struct TechnoSchoolWBApp: App {
     var body: some Scene {
         WindowGroup {
-            PassCodeScreen(phoneNumber: "+71234567890")
+            AuthorizationScreen()
         }
     }
 }

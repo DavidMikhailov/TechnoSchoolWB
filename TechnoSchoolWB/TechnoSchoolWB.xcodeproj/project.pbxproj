@@ -21,6 +21,8 @@
 		41C2912A2C4BFFE4001CD8D2 /* ReusableVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C291252C4BFFE4001CD8D2 /* ReusableVStack.swift */; };
 		41C2912B2C4BFFE4001CD8D2 /* ReusableZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C291262C4BFFE4001CD8D2 /* ReusableZStack.swift */; };
 		41C2912D2C4C004A001CD8D2 /* PassCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2912C2C4C004A001CD8D2 /* PassCodeScreen.swift */; };
+		41C2913A2C4C07EF001CD8D2 /* AutorizationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C291392C4C07EF001CD8D2 /* AutorizationScreen.swift */; };
+		41C2913D2C4C0808001CD8D2 /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2913C2C4C0808001CD8D2 /* PhoneNumberTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		41C291252C4BFFE4001CD8D2 /* ReusableVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableVStack.swift; sourceTree = "<group>"; };
 		41C291262C4BFFE4001CD8D2 /* ReusableZStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableZStack.swift; sourceTree = "<group>"; };
 		41C2912C2C4C004A001CD8D2 /* PassCodeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassCodeScreen.swift; sourceTree = "<group>"; };
+		41C291392C4C07EF001CD8D2 /* AutorizationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutorizationScreen.swift; sourceTree = "<group>"; };
+		41C2913C2C4C0808001CD8D2 /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneNumberTextField.swift; path = ../../../../HomeWorkWB/HomeWorkWB/Components/PhoneNumberTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		41C291022C4BFE71001CD8D2 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				41C2913B2C4C07F2001CD8D2 /* Authorization */,
 				41C291032C4BFE7E001CD8D2 /* PassCode */,
 			);
 			path = Screens;
@@ -114,6 +119,7 @@
 				41C291232C4BFFE4001CD8D2 /* CodeInputTextField.swift */,
 				41C291242C4BFFE4001CD8D2 /* MainButton.swift */,
 				41C291252C4BFFE4001CD8D2 /* ReusableVStack.swift */,
+				41C2913C2C4C0808001CD8D2 /* PhoneNumberTextField.swift */,
 				41C291262C4BFFE4001CD8D2 /* ReusableZStack.swift */,
 				41C291222C4BFFE4001CD8D2 /* TimerManager.swift */,
 			);
@@ -157,6 +163,14 @@
 				41C2911A2C4BFF9D001CD8D2 /* TextFieldClearButtonModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		41C2913B2C4C07F2001CD8D2 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				41C291392C4C07EF001CD8D2 /* AutorizationScreen.swift */,
+			);
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,12 +246,14 @@
 				41C2911C2C4BFF9D001CD8D2 /* TextFieldClearButtonModifier.swift in Sources */,
 				41C291272C4BFFE4001CD8D2 /* TimerManager.swift in Sources */,
 				41C2912A2C4BFFE4001CD8D2 /* ReusableVStack.swift in Sources */,
+				41C2913D2C4C0808001CD8D2 /* PhoneNumberTextField.swift in Sources */,
 				41C291122C4BFF5D001CD8D2 /* HexToColor.swift in Sources */,
 				41C291292C4BFFE4001CD8D2 /* MainButton.swift in Sources */,
 				41C2912D2C4C004A001CD8D2 /* PassCodeScreen.swift in Sources */,
 				41C291282C4BFFE4001CD8D2 /* CodeInputTextField.swift in Sources */,
 				41C290F52C4BFDCF001CD8D2 /* TechnoSchoolWBApp.swift in Sources */,
 				41C2910F2C4BFF47001CD8D2 /* Constants.swift in Sources */,
+				41C2913A2C4C07EF001CD8D2 /* AutorizationScreen.swift in Sources */,
 				41C291132C4BFF5D001CD8D2 /* HideKeyboard.swift in Sources */,
 				41C2912B2C4BFFE4001CD8D2 /* ReusableZStack.swift in Sources */,
 				41C2911B2C4BFF9D001CD8D2 /* BackgroundModifier.swift in Sources */,
